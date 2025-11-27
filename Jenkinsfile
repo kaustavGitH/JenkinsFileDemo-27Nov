@@ -22,7 +22,7 @@ stages{
      sh 'mvn compile'
      }
    }
-   stage('Build on Test Env')
+   stage('Build on QA Env')
    {
    when{   // keyword for if  
     expression{params.ENV == "Test"}  // condition to be satisfied 

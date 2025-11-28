@@ -7,7 +7,7 @@ maven 'mymaven'
 }
 
 parameters{
- choice(name: "ENV",choices: ["","Dev","Test"])
+ choice(name: "ENV",choices: ["","Dev","QA"])
 }
 
 stages{
